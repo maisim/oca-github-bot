@@ -215,10 +215,11 @@ Releasing
 =========
 
 To release a new version, follow these steps:
-- ``towncrier --version YYYYMMDD``
-- git commit the updated `HISTORY.rst` and removed newfragments
-- ``git tag vYYYYMMDD``
-- ``git push --tags``
+
+* ``towncrier --version YYYYMMDD``
+* git commit the updated `HISTORY.rst` and removed newfragments
+* ``git tag vYYYYMMDD``
+* ``git push --tags``
 
 Contributors
 ============
